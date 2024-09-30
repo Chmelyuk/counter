@@ -3,7 +3,7 @@ const rootElement = document.getElementById('app');
 
 
 function App() {
-    const [count, setCount]  = useState( );
+    const [count, setCount]  = useState(0);
     const [Dislike, counter]  = useState(0);
     
     function Increment(){
